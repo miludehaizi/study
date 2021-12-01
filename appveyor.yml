@@ -1,3 +1,7 @@
 version: 1.0.{build}
 build:
   verbosity: minimal
+
+init:
+  - git --version
+  - git config --global core.autocrlf true
